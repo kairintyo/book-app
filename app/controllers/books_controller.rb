@@ -45,7 +45,6 @@ class BooksController < ApplicationController
       flash.now[:danger] = "#{@book.errors.full_messages.count}error"
       render :edit
     end
-
   end
 
   private
